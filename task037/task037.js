@@ -1,12 +1,10 @@
 "use strict";
 // Exercise 37
+Object.defineProperty(exports, "__esModule", { value: true });
 // T-Shirts
-// Function Declatrion
-function make_shirt(size, message) {
-    console.log(`\n A ${size} -sized T-Shirt print the message ${message}`);
-}
-// function call back
+// Import function from exercise 36
+const task036_1 = require("../task036/task036");
 // Print message on the size of T-Shirt.
-make_shirt("Large", "GenAI Engineer");
-make_shirt("Medium", "Generative AI Developer");
-make_shirt("Small", "Full Stack Developer" + "\n");
+(0, task036_1.make_shirt)("Large", "I Love Typescript");
+(0, task036_1.make_shirt)("Medium", "Generative AI Developer");
+(0, task036_1.make_shirt)("Small", "Full Stack Developer" + "\n");

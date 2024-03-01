@@ -1,4 +1,5 @@
 // Exercise1
 
-let Hello_World : String = ("Hello World");
-console.log (Hello_World);
+//print Hello World!
+let hello_World : String = ("Hello World");
+console.log (hello_World);

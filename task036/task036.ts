@@ -10,3 +10,5 @@
     // function call back
     // Print message on the size of T-Shirt.
     make_shirt("small", "GenAI Engineer"+"\n");
+
+    export{make_shirt}

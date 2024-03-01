@@ -1,5 +1,6 @@
 "use strict";
 // Favorite Fruit
+// Declare a variable in array
 let favorite_Fruit = ["Apple", "Banana", "Orange"];
 // five if statements
 if (favorite_Fruit[0] === "Giva") {

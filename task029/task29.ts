@@ -1,5 +1,6 @@
 // Favorite Fruit
 
+// Declare a variable in array
 let favorite_Fruit: string [] = ["Apple", "Banana", "Orange"];
 
 // five if statements

@@ -2,13 +2,11 @@
 
 // T-Shirts
 
-// Function Declatrion
-function make_shirt(size: string , message:string) {
-    console.log(`\n A ${size} -sized T-Shirt print the message ${message}`);
-}
 
-// function call back
+// Import function from exercise 36
+import { make_shirt as make_shirt} from "../task036/task036";
+
 // Print message on the size of T-Shirt.
-make_shirt("Large", "GenAI Engineer");
+make_shirt("Large", "I Love Typescript");
 make_shirt("Medium", "Generative AI Developer");
 make_shirt("Small", "Full Stack Developer" +"\n");

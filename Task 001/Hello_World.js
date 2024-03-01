@@ -1,4 +1,5 @@
 "use strict";
 // Exercise1
-let Hello_World = ("Hello World");
-console.log(Hello_World);
+//print Hello World!
+let hello_World = ("Hello World");
+console.log(hello_World);
