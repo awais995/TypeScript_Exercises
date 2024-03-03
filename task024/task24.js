@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 24
 // Tests for equality and inequality with strings
 let doctor = "Medicine";
@@ -63,3 +62,4 @@ if (seat_number2.includes(item2)) {
 else {
     console.log(`${item2} is not available in array`);
 }
+export {};

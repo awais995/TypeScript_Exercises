@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 25
 let alien_Color = "Green";
 if (alien_Color === "Green") {
@@ -13,3 +12,4 @@ if (alien_Color != "Green") {
 else {
     console.log(" ");
 }
+export {};

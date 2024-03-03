@@ -3,7 +3,7 @@
 // Shrinking Guest List
 console.log(`Unfortunately! The new table won't arrive so that i can invite only two people.`);
 
-import { Updated_list } from "../Task 016/task16";
+import { Updated_list } from "../Task 016/task16.js";
 
 while (Updated_list.length > 2){
     let remove_Guest = Updated_list.pop();

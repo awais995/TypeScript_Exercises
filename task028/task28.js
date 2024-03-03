@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 28
 // Stages of life
 let age = 4;
@@ -23,3 +22,4 @@ else if (age > 65) {
 else {
     console.log("Age not found");
 }
+export {};

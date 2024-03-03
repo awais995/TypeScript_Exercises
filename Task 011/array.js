@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 11
 // Array
 // Index                0           1       2       3           4
@@ -8,6 +7,7 @@ let names = ["Wasif", "Rafiu", "Naeem", "Ahmed", "Abubakar"];
 for (i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
+export {};
 // console.log(names[0]);
 // console.log(names[1]);
 // console.log(names[2]);

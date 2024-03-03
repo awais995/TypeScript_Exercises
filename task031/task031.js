@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 31
 let user_list = [];
 if (user_list.length === 0) {
@@ -28,3 +27,4 @@ else {
         console.log("Age not found");
     }
 }
+export {};

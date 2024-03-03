@@ -1,18 +1,15 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Updated_list = void 0;
 // Exercise 16
-const task15_1 = require("../Task 015/task15");
+import { change_Guest } from "../Task 015/task15.js";
 // More Guests
 console.log(`Good News! We found a bigger dinner table.\n`);
 // add new guests
-task15_1.change_Guest.unshift("Wasif");
+change_Guest.unshift("Wasif");
 // add new guest in middle
-task15_1.change_Guest.splice(3, 0, "Rafiu");
+change_Guest.splice(3, 0, "Rafiu");
 // add new guest in last
-task15_1.change_Guest.push("Sir Aleem");
-for (let j = 0; j < task15_1.change_Guest.length; j++) {
-    console.log(` ${task15_1.change_Guest[j]} I would like to invite you to dinner.  \n`);
+change_Guest.push("Sir Aleem");
+for (let j = 0; j < change_Guest.length; j++) {
+    console.log(` ${change_Guest[j]} I would like to invite you to dinner.  \n`);
 }
-let Updated_list = task15_1.change_Guest;
-exports.Updated_list = Updated_list;
+let Updated_list = change_Guest;
+export { Updated_list };

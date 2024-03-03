@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 33
 // Store the numbers in array from 1-9
 let ordinal_number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -18,3 +17,4 @@ for (let num1 of ordinal_number) {
         console.log(`${num1}th`);
     }
 }
+export {};

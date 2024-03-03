@@ -1,4 +1,3 @@
-"use strict";
 // Favorite Fruit
 // Declare a variable in array
 let favorite_Fruit = ["Apple", "Banana", "Orange"];
@@ -18,3 +17,4 @@ if (favorite_Fruit[2] === "Orange") {
 else {
     console.log(" ");
 }
+export {};

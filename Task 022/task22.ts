@@ -5,5 +5,5 @@ let list2 : string [] = ["Indus", "Everest", "Pakistan", "Islamabd"]; // index e
 console.log(list2[10]);  
 
 // correct error
-let list3 : string [] = [ "Indus", "Everest", "Pakistan", "Islamabd"];
+let list3 : string [] = [ 36,"Indus", "Everest", "Pakistan", "Islamabd"];
 console.log(list3); 

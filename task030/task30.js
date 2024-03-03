@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 30
 /*
 
@@ -17,3 +16,4 @@ for (let userName of user_Names) {
         console.log(`Hello ${userName} Thankyou for logging in again.`);
     }
 }
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 18
 // Seeing the World
 let locations = ["Makkah", "Madina", "United Kingdom", "Malaysia", "America"];
@@ -12,3 +11,4 @@ console.log(locations.reverse()); // reverse the order of list
 console.log(locations.reverse()); // reverse the order of the list again
 console.log(locations.sort()); // sorted in alphapetical order
 console.log(locations.reverse()); // reverse alphabetical order
+export {};

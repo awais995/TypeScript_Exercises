@@ -1,4 +1,3 @@
-"use strict";
 //Exercise 21
 // Create Object
 const student_detail = {
@@ -8,3 +7,4 @@ const student_detail = {
     "education": "BS Computer Science"
 };
 console.log(student_detail);
+export {};

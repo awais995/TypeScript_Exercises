@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 13
 let l = 0;
 let vehicles = ["Car", "Motorcyle", "Bus", "Train", "Aeroplane"];
@@ -6,3 +5,4 @@ let vehicles = ["Car", "Motorcyle", "Bus", "Train", "Aeroplane"];
 for (l = 0; l < vehicles.length; l++) {
     console.log(`I would like to own a ${vehicles[l]}`);
 }
+export {};

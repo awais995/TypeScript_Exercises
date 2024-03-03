@@ -1,4 +1,3 @@
-"use strict";
 //  Exercise 33
 // list of favorite Pizzas
 let pizza_Names = ["Margherita Pizza", "Cheese Pizza", "Peproni Piza"];
@@ -10,3 +9,4 @@ for (let pizza2 of pizza_Names) {
     console.log(`\n I like ${pizza2}`);
 }
 console.log("\nI really love cheese Pizza"); // Additional Line
+export {};

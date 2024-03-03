@@ -1,5 +1,5 @@
 // Exercise 16
-import { change_Guest } from "../Task 015/task15";
+import { change_Guest } from "../Task 015/task15.js";
 
 // More Guests
 console.log(`Good News! We found a bigger dinner table.\n`)

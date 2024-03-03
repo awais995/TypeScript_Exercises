@@ -1,6 +1,6 @@
 // Exercise 042
 
-import { show_magicians,magician_Names } from "../task041/task041"; //Import Function from exercise 41
+import { show_magicians,magician_Names } from "../task041/task041.js"; //Import Function from exercise 41
 
 // create new function and modified it.
 function make_Great(magician_Names:string[]){

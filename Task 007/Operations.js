@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 7
 //Operations
 //Addition 
@@ -21,3 +20,4 @@ let num7 = 16;
 let num8 = 2;
 let division = (num7 / num8);
 console.log(division);
+export {};

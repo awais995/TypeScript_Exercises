@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 44
 // Making Sandwiches
 // used a rest parameter syntax which accepts number of string arguments.
@@ -12,3 +11,4 @@ function make_Sandwich(...item) {
 make_Sandwich("Bread", "meat", "Tomato", "Sauses");
 make_Sandwich("Veg", "tomato", "cucumber", "pickles");
 make_Sandwich("Egg", "Tomato", "Red Onion", "Pickles", "Sauces");
+export {};

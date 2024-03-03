@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 32
 // List 1
 let current_Users = ["Awais", "Ahmed", "Aslam", "Qasim", "Muneer"];
@@ -15,3 +14,4 @@ for (let user of new_Users) {
         console.log(`The UserName ${user} is not available`);
     }
 }
+export {};

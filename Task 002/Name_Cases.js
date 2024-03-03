@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 2
 //Variable Store
 let student_Name = "Muhammad Ali";
@@ -9,3 +8,4 @@ console.log(to_UpperCase);
 //Convert to to_lowerCase
 const to_LowerCase = student_Name.toLowerCase();
 console.log(to_LowerCase);
+export {};

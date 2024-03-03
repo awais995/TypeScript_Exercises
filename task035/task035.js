@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 35
 // Animals List
 let animals = ["Horse", "Ostrich", "Rabbit"];
@@ -11,3 +10,4 @@ for (let statement of animals) {
 }
 console.log(`What these animals have common? ${animals}\n`);
 console.log(`Similarities: Speed Move Quickly, Long Legs, Herbivorous`);
+export {};

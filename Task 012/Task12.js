@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 12
 // Used Array with loop
 var k = 0;
@@ -8,3 +7,4 @@ for (k = 0; k < names1.length; k++) {
     // Back Ticks Method ` ` Professional Method
     console.log(`How are you ${names1[k]}`);
 }
+export {};

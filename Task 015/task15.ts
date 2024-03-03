@@ -1,4 +1,4 @@
-import { Guest_list } from "../Task 014/task14";
+import { Guest_list } from "../Task 014/task14.js";
 
 //Changing Guest list
 console.log(`Unfortunately, ${Guest_list[0]} Can't make it to the dinner.`);

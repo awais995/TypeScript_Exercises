@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 27
 // If else Chain
 let alien2 = ["Green", "Yellow", "Red"];
@@ -32,3 +31,4 @@ else if (alien2[1] != "Yellow") {
 else if (alien2[2] === "Red") {
     console.log(`${alien2[2]} Player earned 15 points`);
 }
+export {};

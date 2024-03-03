@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 23
 let karachi = 'City of Lights';
 // Test 1
@@ -31,3 +30,4 @@ console.log(karachi > 'City of Lights');
 // Test 10
 console.log("Is karachi <=5 ? I predict false");
 console.log(karachi.length <= 5);
+export {};
