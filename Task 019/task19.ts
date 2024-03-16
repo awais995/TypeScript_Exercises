@@ -1,6 +1,5 @@
-import { Guest_list } from "../Task 014/task14.js";
+// Exercise 19
 
-// Dinner Guests
-
-let guests_Number: string = (`I am inviting ${Guest_list.length} guest for dinner. `);
-console.log(guests_Number);
+let guests:string[] = ["Ahmed", "Usman", "Talha", "Abdullah", "Abubakar"]; //Guests list
+    //Print Number of guests invited to dinner by using length property. 
+    console.log(`\n I am inviting ${guests.length} people to dinner.\n`);

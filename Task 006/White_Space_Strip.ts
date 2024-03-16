@@ -1,5 +1,12 @@
 // Exercise 6
+/*
+Declare a variable with whitespaces before and after its value and print it.
+Then remove the spaces show it clean.
+*/
 
-// used \t for one tab forward or giving white space strip.
-let white_Space_Strip : string = ('\t"Muhammad Ali"\n \t\t"Muhammad Awais"');
-console.log(white_Space_Strip);
+let a:string = "\t Pakistan\t" + "\n"; //used \t for (tab) & \n for (Line Break)
+console.log(a); // print the message.
+
+// used a trim() method to remove whitespaces and line terminators from string.
+a = a.trim();
+console.log(a);

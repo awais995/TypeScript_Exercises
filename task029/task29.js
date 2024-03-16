@@ -1,20 +1,17 @@
-// Favorite Fruit
-// Declare a variable in array
-let favorite_Fruit = ["Apple", "Banana", "Orange"];
-// five if statements
-if (favorite_Fruit[0] === "Giva") {
-    console.log(" I don't like Giva.");
+// Exercise 29
+// Create an array of fruits and check if certain fruits are included and print the message with it.
+let fruits = ["Apple", "Banana", "Mango"];
+// used a nested if to print the all statements
+if (fruits.includes("Appricots")) {
+    console.log("Appricots are not included in your fruits bucket");
 }
-if (favorite_Fruit[1] === "Mango") {
-    console.log("I like Mango.");
+if (fruits.includes("Banana")) {
+    console.log("Banana is one of my favorite fruit.");
 }
-if (favorite_Fruit[2] === "Water Melon") {
-    console.log("I don't like Water Melon");
+if (fruits.includes("Apple")) {
+    console.log("I like apples.");
 }
-if (favorite_Fruit[2] === "Orange") {
-    console.log("I really like oranges.");
-}
-else {
-    console.log(" ");
+if (fruits.includes("Mango")) {
+    console.log("I like mango juice.");
 }
 export {};

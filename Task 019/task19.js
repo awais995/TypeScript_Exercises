@@ -1,4 +1,5 @@
-import { Guest_list } from "../Task 014/task14.js";
-// Dinner Guests
-let guests_Number = (`I am inviting ${Guest_list.length} guest for dinner. `);
-console.log(guests_Number);
+// Exercise 19
+let guests = ["Ahmed", "Usman", "Talha", "Abdullah", "Abubakar"]; //Guests list
+//Print Number of guests invited to dinner by using length property. 
+console.log(`\n I am inviting ${guests.length} people to dinner.\n`);
+export {};

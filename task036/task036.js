@@ -1,10 +1,10 @@
 // Exercise 36
-// T-Shirts
-// Function Declatrion
-function make_shirt(size, message) {
-    console.log(`\nA ${size} -sized T-Shirt print the message ${message}`);
+// Create a function for customized T-Shirt with message.
+function design_shirt(size, message) {
+    console.log(size, message);
 }
-// function call back
-// Print message on the size of T-Shirt.
-make_shirt("small", "GenAI Engineer" + "\n");
-export { make_shirt };
+;
+design_shirt("Small", "I love Coding");
+design_shirt("Medium", "FullStack Developer");
+design_shirt("Large", "AI Engineer");
+export {};

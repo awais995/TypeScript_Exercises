@@ -1,12 +1,10 @@
 // Exercise 37
+// Large Shirts: Default values in make_Shirt()
 
-// T-Shirts
-
-
-// Import function from exercise 36
-import { make_shirt as make_shirt} from "../task036/task036.js";
-
-// Print message on the size of T-Shirt.
-make_shirt("Large", "I Love Typescript");
-make_shirt("Medium", "Generative AI Developer");
-make_shirt("Small", "Full Stack Developer" +"\n");
+// Create a function
+function make_shirts(size:string = "Large", message:string = "I love Coding"){
+    console.log(`Make a shirt: ${size} with the message: ${message}`);
+}
+make_shirts(); // print the shirt with the message.
+make_shirts("medium", "Generative AI Engineer"); // Custom shirt design
+make_shirts("small"); // print the large shirt message on small shirt.

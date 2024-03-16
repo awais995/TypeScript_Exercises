@@ -1,9 +1,11 @@
 // Exercise 22
 
-// intentional error
-let list2 : string [] = ["Indus", "Everest", "Pakistan", "Islamabd"]; // index error
-console.log(list2[10]);  
+// Intentional Error
 
-// correct error
-let list3 : string [] = [ 36,"Indus", "Everest", "Pakistan", "Islamabd"];
-console.log(list3); 
+// Declare simple numbers array
+let a:number [] = [1,2,3,4];
+//intentional Error
+console.log(a[7]); // Index Error: trying to access index 7, which does not exist.
+
+//Correct the error
+console.log(a[1]);

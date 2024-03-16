@@ -1,6 +1,4 @@
 // Exercise 44
-
-
 // Making Sandwiches
 
 // used a rest parameter syntax which accepts number of string arguments.
